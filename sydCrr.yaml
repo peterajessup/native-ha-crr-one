@@ -42,7 +42,7 @@ spec:
           role: Live
         remotes:
           - addresses:
-              - melqm-ibm-mq.mqdr.svc
+              - melqm-ibm-mq.mqdr.svc  # place holder, use the route created by the operator for the rmeote queue manager
             trust:
               - secret:
                   secretName: tls-mel
