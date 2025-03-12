@@ -42,7 +42,7 @@ spec:
           role: Live
         remotes:
           - addresses:
-              - melqm-ibm-mq-nhacrr-mq.apps.67d0b651021544b1eed7ff28.ap1.techzone.ibm.com  # place holder, use the route created by the operator for the remote queue manager
+              - melqm-ibm-mq-nhacrr-mqdr.apps.67d0b651021544b1eed7ff28.ap1.techzone.ibm.com  # place holder, use the route created by the operator for the remote queue manager
             trust:
               - secret:
                   secretName: tls-mel
